@@ -1,8 +1,10 @@
 import Image from "next/image";
+import Header from "./components/Header";
 
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen font-sans">
+      <Header />
       {/* ── Hero ── */}
       <section className="relative min-h-120 flex items-center bg-[#0c1a2e] overflow-hidden">
         {/* Image anchored to the right */}
