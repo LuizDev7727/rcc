@@ -494,7 +494,7 @@ export default function Home() {
 
         <div className="max-w-6xl mx-auto mt-6 flex justify-end">
           <p className="text-xs text-gray-600">
-            © 2026 Apex Simulation Engineers | All rights Reserved
+            © 2024 Apex Simulation Engineers | All rights Reserved
           </p>
         </div>
       </footer>

@@ -31,12 +31,12 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full bg-[#0b1422] border-b border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-6">
         {/* ── Logo ── */}
-        <a href="/" className="flex items-center gap-3 shrink-0">
+        <a href="/" className="flex items-center shrink-0">
           <Image
             src="/images/logo.png"
             alt="RCC logo"
-            width={40}
-            height={40}
+            width={80}
+            height={80}
             className="rounded-full"
             priority
           />
