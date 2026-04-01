@@ -10,7 +10,7 @@ const navItems = [
       "Analysis & Development",
       "Simulation applied to new product design",
       "Machinery Design",
-      "Mechanical design validation and optimization.",
+      "Validation and optimization.",
     ],
   },
   {
