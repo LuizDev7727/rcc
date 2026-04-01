@@ -319,7 +319,7 @@ export default function Home() {
           {/* Right */}
           <div className="flex-1 w-full relative min-h-[300px] lg:min-h-[360px] rounded overflow-hidden bg-[#e4ecf7]">
             <Image
-              src="/images/ChatGPT_Image_Mar_15_2026_09_39_12_AM.png"
+              src="/images/fea_part.png"
               alt="3D FEA stress analysis model"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -358,15 +358,15 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                img: "/images/ChatGPT_Image_Mar_15_2026_11_03_45_AM.png",
+                img: "/images/lifting_frame.png",
                 title: "Structural Analysis of Lifting Frame",
               },
               {
-                img: "/images/ChatGPT_Image_Mar_15_2026_11_03_49_AM.png",
+                img: "/images/ChatGPT Image Apr 1, 2026, 02_55_28 PM.png",
                 title: "Vibration Study of Industrial Machinery",
               },
               {
-                img: "/images/ChatGPT_Image_Mar_15_2026_09_39_12_AM.png",
+                img: "/images/ChatGPT Image Apr 1, 2026, 02_59_14 PM.png",
                 title: "Contact Analysis of Bolted Joints",
               },
             ].map((study) => (
@@ -402,14 +402,28 @@ export default function Home() {
 
       {/* ── Footer CTA ── */}
       <section className="relative bg-[#0c1a2e] py-20 px-6 overflow-hidden">
-        {/* Hexagonal mesh pattern */}
+        {/* Left hexagonal mesh image */}
         <div
-          className="absolute inset-0 opacity-15"
+          className="absolute left-0 top-0 h-full w-1/2"
           style={{
-            backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='100'%3E%3Cpath d='M28 66L0 50V18L28 2l28 16v32L28 66zm0-6l22-12.7V21.7L28 9 6 21.7v25.6L28 60z' fill='none' stroke='%23ffffff' stroke-width='1'/%3E%3C/svg%3E")`,
-            backgroundSize: "56px 100px",
+            backgroundImage: `url("/images/ChatGPT_Image_Mar_15_2026_11_03_49_AM.png")`,
+            backgroundSize: "cover",
+            backgroundPosition: "left center",
+            opacity: 0.45,
           }}
         />
+        {/* Right wire mesh image */}
+        <div
+          className="absolute right-0 top-0 h-full w-1/2"
+          style={{
+            backgroundImage: `url("/images/ChatGPT_Image_Mar_15_2026_11_03_45_AM.png")`,
+            backgroundSize: "cover",
+            backgroundPosition: "right center",
+            opacity: 0.45,
+          }}
+        />
+        {/* Center fade overlay so text stays readable */}
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0c1a2e]/10 via-[#0c1a2e]/60 to-[#0c1a2e]/10" />
         <div className="relative z-10 max-w-2xl mx-auto text-center">
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-3">
             Ready to Optimize Your Engineering?
@@ -480,7 +494,7 @@ export default function Home() {
 
         <div className="max-w-6xl mx-auto mt-6 flex justify-end">
           <p className="text-xs text-gray-600">
-            © 2024 Apex Simulation Engineers | All rights Reserved
+            © 2026 Apex Simulation Engineers | All rights Reserved
           </p>
         </div>
       </footer>

@@ -5,12 +5,12 @@ import { useState } from "react";
 
 const navItems = [
   {
-    label: "Services",
+    label: "Additional Services",
     children: [
-      "Structural Analysis",
-      "Dynamic Simulation",
-      "Contact Analysis",
-      "Motion Simulation",
+      "Analysis & Development",
+      "Simulation applied to new product design",
+      "Machinery Design",
+      "Mechanical design validation and optimization.",
     ],
   },
   {
